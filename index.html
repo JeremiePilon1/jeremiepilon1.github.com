@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+	Fichier 	: index.html
+	Description     : Site web de projet d'ecole, page d'accueil
+	Date 		: 07/02/2018	
+	Auteur 		: Jeremie Pilon
+	Groupe		: 117hi
+-->
+<html lang="fr">
+
+<head>
+    <meta name=”revised” content="Techno Technic, 5/02/2018" />
+    <title>Acceuil</title>
+    <link rel="icon" href="images/ico/favicon.ico" type="image/gif" sizes="16x16">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremie Pilon">
+    <script src="js/w3.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Contenu de la page -->
+    <header>
+        <div class="menuBar">
+            <script src="js/w3.js"></script>
+            <div w3-include-html="menu.html"></div>
+            <script>
+                w3.includeHTML();
+            </script>
+        </div>
+        <div class="navleft">
+            <script src="js/w3.js"></script>
+            <div w3-include-html="navleftIndex.html"></div>
+            <script>
+                w3.includeHTML();
+            </script>
+        </div>
+        <div class="topTitle">
+            <h1>Techno Technic</h1>
+            <h3>Soutien Informatique</h3>
+            <div class='line'></div>
+        </div>
+    </header>
+    <div id='corps'>
+        <div>
+            <div id="prez" class="ref"></div>
+            <div>
+                <p>
+                    Bonjours, voici mon site web de soutien informatique. Ce site traite principalement du support technique que j'offre et de quelques information utiles!
+                </p>
+            </div>
+            <div>
+                <h3>Pourquoi Techno Technic ?</h3>
+            </div>
+            <div>
+                <p>Vous pouvez ici avoir accès à de l'information à partir de différent site internet. De plus vous pouvez prendre rendez-vous avec nous à partir de la page contact. Veuillez remplir le formulaire et nous le soumettre.</p>
+            </div>
+            <div>
+                <h3>Présentation</h3>
+            </div>
+            <a id='me' target='_blank' href='https://www.linkedin.com/in/jeremiepilon22/'><img src="images/png/me.png" alt="Pas d'iamge"/></a>
+            <div>
+                <p>Je me présente, je m'apelle Jérémie, je suis dans le domaine de l'informatique depuis 2006. Je suis passionné du domaine et je suis toujours à prêt a de noveau défi.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <script src="js/w3.js"></script>
+        <div w3-include-html="footer.html"></div>
+        <script>
+            w3.includeHTML();
+        </script>
+    </div>
+</body>
+
+</html>

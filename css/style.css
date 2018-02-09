@@ -1,0 +1,374 @@
+ body {
+     font-family: "Lato", sans-serif;
+     font-size: 100%;
+     color: #000;
+     margin: 0%;
+}
+ #corps {
+     width: 70%;
+     margin-left: 15%;
+     margin-right: 15%;
+     padding: 8px;
+}
+ .menuBar {
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     float:top;
+     display: block;
+     padding-top: 2%;
+     z-index: 3;
+     height: 50px;
+     text-align: center;
+     background-color: #3d3d3d;
+}
+ .menuBar a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 120%;
+     margin: 0;
+     top: 0%;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     padding: 1% 1%;
+     padding-top: 1%;
+     padding-right: 3%;
+     padding-bottom: 1%;
+     padding-left: 2%;
+}
+ .menuBar a:hover {
+     background-color: #ffffff;
+     color: #000;
+}
+ .menuBar a.spacer {
+     color: #fff;
+     top: 0%;
+     margin: 0;
+     background-color: #353b48;
+}
+ .navleft {
+     position: fixed;
+     width: 13%;
+     height: 100%;
+     display: block;
+     float: left;
+     left: 0%;
+     z-index: 2;
+     background: #3d3d3d;
+}
+ .navleft a {
+     font-weight: bold;
+     width: 80%;
+     text-align: center;
+     border-radius: 9px;
+     margin-bottom: 6%;
+     padding: 8%;
+     text-decoration: none;
+     z-index: 2;
+     box-sizing: inherit;
+     overflow: auto;
+     overflow-x: auto;
+     overflow-y: auto;
+     color: #FFF;
+     display: block;
+     text-decoration: none;
+}
+ .navleft a:hover {
+     background-color: #ffffff;
+     color: #000;
+}
+ .navleft a.active {
+     margin-top: 60%;
+     background: #3d3d3d;
+     color: #fff;
+}
+ .navleft a.active:hover {
+     margin-top: 60%;
+     background-color: #ffffff;
+     color: #000;
+}
+ p {
+     left: 50%;
+     margin-left: 20%;
+     margin-right: 20%;
+     font-size: 110%;
+}
+ footer {
+     color: #fff;
+     text-align: center;
+     font-size: 90%;
+     z-index: 1;
+     height: 25px;
+     bottom: 0;
+     background-color: #3d3d3d;
+     width: 100%;
+     position: fixed;
+}
+ .topTitle {
+     position: fixed;
+     float: left;
+     background-color: #fff;
+     width: 100%;
+     z-index: 1;
+     padding-top: 5%;
+     text-align: center;
+}
+ .topTitle .line {
+     display: block;
+     height: 4px;
+     margin: auto;
+     width: 70%;
+     text-align: center;
+     background: #000;
+}
+ .ref {
+     padding-top: 215px;
+}
+ fieldset {
+     background-color:#dcdde1;
+     box-shadow: 10px 10px 5px grey;
+     width: 65%;
+     border: 5px solid #353b48;
+     border-radius : 20px;
+     padding: 30px;
+     text-align: left;
+     left: 50%;
+     margin-left: 20%;
+     margin-right: 20%;
+}
+ legend{
+     text-align:left;
+     background-color:#dcdde1;
+     border: 5px solid #353b48;
+     border-radius : 20px;
+     padding: 5px;
+}
+ div{
+     text-align:center;
+}
+ label {
+     float: left;
+     width: 30%;
+     margin-right: 5px;
+     margin-left: 50px;
+     text-align: right;
+     font-weight: bold;
+}
+ textarea {
+     width: 100%;
+}
+ input[type="submit"]{
+     box-shadow: 10px 10px 5px grey;
+     background-color:#7f8fa6;
+     font-size: 18px;
+     cursor:pointer;
+     border-color:#7f8fa6;
+     border-radius: 12px;
+}
+ input[type="submit"]:hover{
+     box-shadow: 10px 10px 5px grey;
+     background-color:#f5f6fa;
+     font-size: 18px;
+     cursor:pointer;
+     border-color:#7f8fa6;
+     border-radius: 12px;
+}
+ input[type="reset"]{
+     box-shadow: 10px 10px 5px grey;
+     background-color:#7f8fa6;
+     font-size: 18px;
+     border-color:#7f8fa6;
+     border-radius: 12px;
+}
+ input[type="reset"]:hover{
+     box-shadow: 10px 10px 5px grey;
+     background-color:#f5f6fa;
+     font-size: 18px;
+     border-color:#7f8fa6;
+     border-radius: 12px;
+}
+ input[type="button"]{
+     box-shadow: 10px 10px 5px grey;
+     background-color:#7f8fa6;
+     font-size: 18px;
+     border-color:#7f8fa6;
+     border-radius: 12px;
+}
+ input[type="button"]:hover {
+     box-shadow: 10px 10px 5px grey;
+     background-color:#f5f6fa;
+     border-color:#7f8fa6;
+}
+ h1, fieldset.req{
+     text-align:center;
+}
+ #prof, #req, #com, #sumit {
+     display:block;
+}
+ #sche {
+     border-collapse: collapse;
+     width: 40%;
+     margin-left: 25%;
+     box-shadow: 10px 10px 5px grey;
+     margin-right: 25%;
+}
+ #sche td, #sche th {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+ #sche tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ #sche tr:hover {
+     background-color: #ddd;
+}
+ #sche th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border: 1px solid #7f8fa6;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
+}
+ #contact {
+     border-collapse: collapse;
+     width: 40%;
+     box-shadow: 10px 10px 5px grey;
+     margin-left: 25%;
+     margin-right: 25%;
+}
+ #contact td, #contact th {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+ #contact tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ #contact tr:hover {
+     background-color: #ddd;
+}
+ #contact th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border: 1px solid #7f8fa6;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
+}
+ #menuTab {
+     border-collapse: collapse;
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-bottom: 4%;
+}
+ #menuTab td, #menuTab th {
+     padding: 8px;
+}
+ #menuTab tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ .lienTab {
+     border-collapse: collapse;
+     width: 70%;
+     margin-left: 15%;
+     margin-right: 15%;
+     border-radius: 20px;
+     box-shadow: 10px 10px 5px grey;
+     margin-bottom: 4%;
+}
+ .lienTab th {
+     padding: 8px;
+     background-color: #353b48;
+     color: #fff;
+     border: 2px #fff;
+     font-size: 110%;
+     border-radius: 20px;
+}
+ .lienTab td {
+     padding: 8px;
+     border-radius: 20px;
+}
+ .lienTab td:hover {
+     background-color: #7f8fa6;
+     border-radius: 20px;
+     color: #40739e;
+}
+ .lienTab a {
+     color: #40739e;
+}
+ .lienTab td img {
+     width: 40%;
+}
+ .lienTab td#ama {
+     background: #dfe4ea;
+}
+ .lienTab td#ama:hover {
+     background: #7f8fa6;
+}
+ #me img {
+     border-radius: 30px;
+     width: 30%;
+}
+ .lienTab th.empty {
+     background: none;
+     box-shadow: none;
+}
+ #lienTab th#constructTitle {
+     background: none;
+     color: #000;
+     font-weight: bold;
+     font-size: 28px;
+}
+ .tooltip {
+     position: relative;
+     display: inline-block;
+     border-bottom: 1px dotted black;
+}
+ .tooltip .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+     position: absolute;
+     z-index: 1;
+     bottom: 150%;
+     left: 50%;
+     margin-left: -60px;
+}
+ .tooltip .tooltiptext::after {
+     content: "";
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     margin-left: -5px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: black transparent transparent transparent;
+}
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+}
+ #itC {
+     font-size: 22px;
+     width: 60%;
+     margin-left: 20%;
+     margin-right: 20%;
+     text-align: justify;
+}
+ #util {
+     margin-bottom: 90px;
+}
+ #util a {
+     color: #000;
+     background: #dfe4ea;
+     text-decoration: none;
+}
+ #util a:hover {
+     background: #7f8fa6;
+}

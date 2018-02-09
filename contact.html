@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+	Fichier 	: contact.html
+	Description     : Page contact
+	Date 		: 07/02/2018	
+	Auteur 		: Jeremie Pilon
+	Groupe		: 117hi
+-->
+<html lang="fr">
+
+<head>
+    <meta name=”revised” content="Techno Technic, 5/02/2018" />
+    <title>Contact</title>
+    <link rel="icon" href="images/ico/favicon.ico" type="image/gif" sizes="16x16">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremie Pilon">
+    <script src="js/w3.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js"></script>
+    <script>
+        function toggleDiv(divId) {
+                $("#" + divId).toggle();
+            }
+    </script>
+</head>
+
+<body>
+    <!-- Contenu de la page -->
+    <header>
+        <div class="menuBar">
+            <script src="js/w3.js"></script>
+            <div w3-include-html="menu.html"></div>
+            <script>
+                w3.includeHTML();
+            </script>
+        </div>
+        <div class="topTitle">
+            <h1>Techno Technic</h1>
+            <h3>Contact</h3>
+            <div class='line'></div>
+        </div>
+    </header>
+    <div id='corps'>
+        <div class="ref">
+            <p>Pour nous contacter, vous pouvez me rejoindre au sur mon cellulaire ou me faire parvenir un couriel.</p>
+        </div>
+        <table id='sche'>
+            <tr>
+                <th colspan='2'>Heure de disponibilité:</th>
+            </tr>
+            <tr>
+                <th>Lundi:</th>
+                <td>8h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Mardi:</th>
+                <td>8h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Mercredi:</th>
+                <td>8h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Jeudi:</th>
+                <td>8h00 - 17h00</td>
+            </tr>
+            <tr>
+                <th>Vendredi:</th>
+                <td>8h00 - 17h00</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table id="contact">
+            <tr>
+                <th>Mobile Personnel</th>
+                <td>(450) 530 - 5699</td>
+            </tr>
+            <tr>
+                <th>Courriel</th>
+                <td><a href="mailto:someone@example.com?Subject=Veuillez%20entrer%20un%20objet" target="_top">jeremie.pilon@outlook.com</a></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <script src="js/w3.js"></script>
+        <div w3-include-html="footer.html"></div>
+        <script>
+            w3.includeHTML();
+        </script>
+    </div>
+</body>
+
+</html>
