@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D31D75C4-0E4F-4E54-A059-64E44BD16F58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Page_Professionnel</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contact.html" />
+    <Content Include="css\style.css" />
+    <Content Include="CV\css\bootstrap.min.css" />
+    <Content Include="CV\css\style.css" />
+    <Content Include="CV\CurriculumVitæ.html" />
+    <Content Include="CV\js\bootstrap.min.js" />
+    <Content Include="CV\js\jquerry.min.js" />
+    <Content Include="CV\js\w3.js" />
+    <Content Include="CV\menu.html" />
+    <Content Include="footer.html" />
+    <Content Include="images\ico\favicon.ico" />
+    <Content Include="images\png\amazon.png" />
+    <Content Include="images\png\asus.png" />
+    <Content Include="images\png\hp.png" />
+    <Content Include="images\png\me.png" />
+    <Content Include="images\png\newegg.png" />
+    <Content Include="images\png\nvidia.png" />
+    <Content Include="images\png\Panta.png" />
+    <Content Include="images\png\PC-CANADA.png" />
+    <Content Include="images\png\PCPARTPICKER-LOGO.png" />
+    <Content Include="images\png\PCPARTPICKER.png" />
+    <Content Include="index.html" />
+    <Content Include="info.html" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\w3.js" />
+    <Content Include="lien.html" />
+    <Content Include="menu.html" />
+    <Content Include="navleftIndex.html" />
+    <Content Include="navleftInfo.html" />
+    <Content Include="navleftLien.html" />
+    <Content Include="navleftservice.html" />
+    <Content Include="service.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\" />
+    <Folder Include=".vs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
