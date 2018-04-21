@@ -1,189 +1,253 @@
-* {
-    font-size: 100%;
-    color: #000;
-
-    margin: 0;
+ * {
+     font-size: 100%;
+     color: #000;
+     margin: 0%;
+     box-sizing: border-box;
 }
-
-body {
-    font-family: Lato, sans-serif;
+ body {
+     font-family: "Lato", sans-serif;
 }
-
-.menuBar {
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    float: top;
-    display: block;
-    z-index: 3;
-    height: 5%;
-    text-align: center;
-    background-color: #3d3d3d;
+ .menuBar {
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     float:top;
+     display: block;
+     padding-top: 2%;
+     z-index: 3;
+     height: 80px;
+     text-align: center;
+     background-color: #3d3d3d;
 }
-
-    .menuBar a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 120%;
-    }
-
-        .menuBar a:hover {
-            background-color: #ffffff;
-            color: #000;
-        }
-
-        .menuBar a.spacer {
-            color: #fff;
-            top: 0%;
-            margin: 0;
-            background-color: #353b48;
-        }
-.ref {
-    padding-top: 215px;
+ .menuBar a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 120%;
+     margin: 0;
+     top: 0%;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     padding: 1% 1%;
+     padding-top: 1%;
+     padding-right: 3%;
+     padding-bottom: 1%;
+     padding-left: 2%;
 }
-
-footer {
-    color: #fff;
-    text-align: center;
-    font-size: 90%;
-    z-index: 1;
-    height: 25px;
-    bottom: 0;
-    background-color: #3d3d3d;
-    width: 100%;
-    position: fixed;
+ .menuBar a:hover {
+     background-color: #ffffff;
+     color: #000;
+     text-decoration: none;
 }
-
-.topTitle {
-    position: fixed;
-    float: left;
-    background-color: #fff;
-    width: 100%;
-    z-index: 1;
-    padding-top: 5%;
-    text-align: center;
+ .menuBar a.spacer {
+     color: #fff;
+     top: 0%;
+     margin: 1%;
+     background-color: #353b48;
 }
-
-    .topTitle .line {
-        display: block;
-        height: 4px;
-        width: 70%;
-        text-align: center;
-        background: #000;
-        margin: auto;
-    }
-
-.tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 30%;
-    height: 600px;
+ .ref {
+     padding-top: 215px;
 }
-
-a .leftArrow {
-    float: left;
-    width: 64px;
-    height: 64px;
+ footer {
+     color: #fff;
+     text-align: center;
+     font-size: 90%;
+     z-index: 1;
+     height: 25px;
+     bottom: 0;
+     background-color: #3d3d3d;
+     width: 100%;
+     position: fixed;
 }
-
-.tab button {
-    display: block;
-    background-color: inherit;
-    color: #000;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: .3s;
-    font-size: 17px;
-    padding: 22px 16px;
+ .topTitle {
+     position: fixed;
+     float: left;
+     background-color: #fff;
+     width: 100%;
+     z-index: 1;
+     padding-top: 5%;
+     text-align: center;
 }
-
-    .tab button.active {
-        background-color: #ccc;
-    }
-
-.tabcontent {
-    float: left;
-    border: 1px solid #ccc;
-    width: 70%;
-    border-left: none;
-    height: 600px;
-    padding: 0 12px;
+ .topTitle .line {
+     display: block;
+     height: 4px;
+     margin: auto;
+     width: 70%;
+     text-align: center;
+     background: #000;
 }
-
-.prezCentered {
-    font-size: 20px;
-    margin: 5%;
+ .tab {
+     float: left;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+     width: 30%;
+     height: 600px;
 }
-
-#InfoTab {
-    border-collapse: collapse;
-    width: 100%;
-    box-shadow: 10px 10px 5px grey;
+ a .leftArrow {
+     float: left;
+     width: 64px;
+     height: 64px;
 }
-
-#ContactTab {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    box-shadow: 10px 10px 5px grey;
-    width: 100%;
+ .tab button {
+     display: block;
+     background-color: inherit;
+     color: black;
+     padding: 22px 16px;
+     width: 100%;
+     border: none;
+     outline: none;
+     text-align: left;
+     cursor: pointer;
+     transition: 0.3s;
+     font-size: 17px;
 }
-
-#Information, #Joindre, #Connaissances, #Domaine {
-    display: none;
+ .tab button:hover {
+     background-color: #ddd;
 }
-
-div#menuTab li {
-    display: inline-flex;
-    /* Largeur des boutons */
-    width: 250px;
-    margin-top:15px;
-    font-size:16px;
+ .tab button.active {
+     background-color: #ccc;
 }
-
-ul#tabnav {
-    position: fixed;
+ .tabcontent {
+     float: left;
+     padding: 0px 12px;
+     border: 1px solid #ccc;
+     width: 70%;
+     border-left: none;
+     height: 600px;
 }
-
-#menuTab {
-    border-collapse: collapse;
+ .prezCentered {
+     margin: 5%;
+     font-size: 20px;
 }
-
-.tab button:hover, #InfoTab tr:hover, #ContactTab tr:hover, #CompetencesTab tr:hover, #ConnaissancesTab tr:hover, #DomaineTab tr:hover {
-    background-color: #ddd;
+ #InfoTab {
+     border-collapse: collapse;
+     width: 100%;
+     box-shadow: 10px 10px 5px grey;
 }
-
-#InfoTab td, #InfoTab th, #ContactTab td, #ContactTab th, #CompetencesTab td, #CompetencesTab th, #ConnaissancesTab td, #ConnaissancesTab th, #DomaineTab td, #DomaineTab th {
-    border: 1px solid #ddd;
-    padding: 8px;
+ #InfoTab td, #InfoTab th {
+     border: 1px solid #ddd;
+     padding: 8px;
 }
-
-#InfoTab tr:nth-child(even), #ContactTab tr:nth-child(even), #CompetencesTab tr:nth-child(even), #ConnaissancesTab tr:nth-child(even), #DomaineTab tr:nth-child(even), #menuTab tr:nth-child(even) {
-    background-color: #f2f2f2;
+ #InfoTab tr:nth-child(even){
+     background-color: #f2f2f2;
 }
-
-#InfoTab th, #ContactTab th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #d9d9d9;
-    color: #000;
+ #InfoTab tr:hover {
+     background-color: #ddd;
 }
-
-#CompetencesTab, #ConnaissancesTab, #DomaineTab {
-    border-collapse: collapse;
-    box-shadow: 10px 10px 5px grey;
-    width: 100%;
+ #InfoTab th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
 }
-
-    #CompetencesTab th, #ConnaissancesTab th, #DomaineTab th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        border: 1px solid #7f8fa6;
-        text-align: left;
-        background-color: #d9d9d9;
-        color: #000;
-    }
+ #ContactTab {
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     box-shadow: 10px 10px 5px grey;
+     width: 100%;
+}
+ #ContactTab td, #ContactTab th {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+ #ContactTab tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ #ContactTab tr:hover {
+     background-color: #ddd;
+}
+ #ContactTab th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
+}
+ #CompetencesTab {
+     border-collapse: collapse;
+     box-shadow: 10px 10px 5px grey;
+     width: 100%;
+}
+ #CompetencesTab td, #CompetencesTab th {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+ #CompetencesTab tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ #CompetencesTab tr:hover {
+     background-color: #ddd;
+}
+ #CompetencesTab th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border: 1px solid #7f8fa6;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
+}
+ #ConnaissancesTab {
+     border-collapse: collapse;
+     box-shadow: 10px 10px 5px grey;
+     width: 100%;
+}
+ #ConnaissancesTab td, #ConnaissancesTab th {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+ #ConnaissancesTab tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ #ConnaissancesTab tr:hover {
+     background-color: #ddd;
+}
+ #ConnaissancesTab th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border: 1px solid #7f8fa6;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
+}
+ #DomaineTab {
+     border-collapse: collapse;
+     box-shadow: 10px 10px 5px grey;
+     width: 100%;
+}
+ #DomaineTab td, #DomaineTab th {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+ #DomaineTab tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ #DomaineTab tr:hover {
+     background-color: #ddd;
+}
+ #DomaineTab th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border: 1px solid #7f8fa6;
+     text-align: left;
+     background-color: #d9d9d9;
+     color: black;
+}
+ #Information, #Joindre, #Connaissances, #Domaine {
+     display:none 
+}
+ #menuTab {
+     border-collapse: collapse;
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-bottom: 4%;
+}
+ #menuTab td, #menuTab th {
+     padding: 8px;
+}
+ #menuTab tr:nth-child(even){
+     background-color: #f2f2f2;
+}
+ 

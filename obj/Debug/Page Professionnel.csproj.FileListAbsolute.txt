@@ -3,8 +3,3 @@ C:\Users\FoutaBled\Source\Repos2\jeremiepilon1.github.io\bin\Debug\ClassLibrary.
 C:\Users\FoutaBled\Source\Repos2\jeremiepilon1.github.io\obj\Debug\Page Professionnel.csprojResolveAssemblyReference.cache
 C:\Users\FoutaBled\Source\Repos2\jeremiepilon1.github.io\obj\Debug\ClassLibrary.dll
 C:\Users\FoutaBled\Source\Repos2\jeremiepilon1.github.io\obj\Debug\ClassLibrary.pdb
-C:\Users\FoutaBled\Source\Repos\jeremiepilon1.github.io\bin\Debug\ClassLibrary.dll
-C:\Users\FoutaBled\Source\Repos\jeremiepilon1.github.io\bin\Debug\ClassLibrary.pdb
-C:\Users\FoutaBled\Source\Repos\jeremiepilon1.github.io\obj\Debug\Page Professionnel.csprojResolveAssemblyReference.cache
-C:\Users\FoutaBled\Source\Repos\jeremiepilon1.github.io\obj\Debug\ClassLibrary.dll
-C:\Users\FoutaBled\Source\Repos\jeremiepilon1.github.io\obj\Debug\ClassLibrary.pdb

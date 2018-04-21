@@ -40,16 +40,16 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contact.php" />
+    <Content Include="contact.html" />
     <Content Include="css\style.css" />
     <Content Include="CV\css\bootstrap.min.css" />
     <Content Include="CV\css\style.css" />
-    <Content Include="CV\CurriculumVitæ.php" />
+    <Content Include="CV\CurriculumVitæ.html" />
     <Content Include="CV\js\bootstrap.min.js" />
     <Content Include="CV\js\jquerry.min.js" />
     <Content Include="CV\js\w3.js" />
-    <Content Include="CV\menu.php" />
-    <Content Include="nav\footer.php" />
+    <Content Include="CV\menu.html" />
+    <Content Include="footer.html" />
     <Content Include="images\ico\favicon.ico" />
     <Content Include="images\png\amazon.png" />
     <Content Include="images\png\asus.png" />
@@ -61,15 +61,17 @@
     <Content Include="images\png\PC-CANADA.png" />
     <Content Include="images\png\PCPARTPICKER-LOGO.png" />
     <Content Include="images\png\PCPARTPICKER.png" />
-    <Content Include="index.php" />
-    <Content Include="info.php" />
+    <Content Include="index.html" />
+    <Content Include="info.html" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\w3.js" />
-    <Content Include="lien.php" />
-    <Content Include="nav\menu.php" />
-    <Content Include="nav\navleftIndex.php" />
-    <Content Include="nav\navleftservice.php" />
-    <Content Include="service.php" />
+    <Content Include="lien.html" />
+    <Content Include="menu.html" />
+    <Content Include="navleftIndex.html" />
+    <Content Include="navleftInfo.html" />
+    <Content Include="navleftLien.html" />
+    <Content Include="navleftservice.html" />
+    <Content Include="service.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\" />
