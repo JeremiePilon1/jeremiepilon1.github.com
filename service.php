@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--
-	Fichier 	: service.html
+	Fichier 	: service.php
 	Description     : Demande de services et autres
 	Date 		: 07/02/2018	
 	Auteur 		: Jeremie Pilon
@@ -30,14 +30,7 @@
     <header>
         <div class="menuBar">
             <script src="js/w3.js"></script>
-            <div w3-include-html="menu.html"></div>
-            <script>
-                w3.includeHTML();
-            </script>
-        </div>
-        <div class="navleft">
-            <script src="js/w3.js"></script>
-            <div w3-include-html="navleftservice.html"></div>
+            <div w3-include-html="nav/menu.php"></div>
             <script>
                 w3.includeHTML();
             </script>
@@ -64,7 +57,7 @@
                     <label for="prenom">Prénom :</label>
                     <input type="text" name="prenom" size="15" id="prenom" required><br>
                     <label for="phone">Téléphone :</label>
-                    <input type="tel" name="phone" size="15" id="phone" placeholder='(444) 123-1234'><br>
+                    <input type="tel" name="phone" size="15" id="phone" placeholder='(450) 848 - 4069'><br>
                     <label for="courriel">Courriel :</label>
                     <input type="email" size="15" name="courriel" id="courriel" required><br>
                     <label for="age">Âge :</label>
@@ -81,8 +74,7 @@
                     <label for="emplois">Emplois :</label>
                     <input type="text" name="emplois" size="20" id="emplois"><br>
                 </fieldset>
-                <br> <br>
-                <div id="req" class="ref"></div>
+                <div id="req"></div>
                 <fieldset>
                     <legend>Type de requête</legend>
                     <input type="checkbox" name="req" value="reparation">Réparation
@@ -91,8 +83,7 @@
                     <input type="checkbox" name="req" value="vente">Vente
                     <input type="checkbox" name="req" value="vente">Suggestion
                 </fieldset>
-                <br><br>
-                <div id="com" class="ref"></div>
+                <div id="com"></div>
                 <fieldset>
                     <legend>Commentaires</legend>
                     <textarea rows="3" name="commentaires" placeholder="Inscrivez ici vos commentaires"></textarea>
@@ -105,16 +96,10 @@
                 </div>
             </form>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
     </div>
     <div>
         <script src="js/w3.js"></script>
-        <div w3-include-html="footer.html"></div>
+        <div w3-include-html="nav/footer.php"></div>
         <script>
             w3.includeHTML();
         </script>

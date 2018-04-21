@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
-	Fichier 	: index.html
+	Fichier 	: index.php
 	Description     : Site web de projet d'ecole, page d'accueil
 	Date 		: 07/02/2018	
 	Auteur 		: Jeremie Pilon
@@ -20,18 +20,20 @@
 </head>
 
 <body>
+
+
     <!-- Contenu de la page -->
     <header>
         <div class="menuBar">
             <script src="js/w3.js"></script>
-            <div w3-include-html="menu.html"></div>
+            <div w3-include-html="nav/menu.php"></div>
             <script>
                 w3.includeHTML();
             </script>
         </div>
         <div class="navleft">
             <script src="js/w3.js"></script>
-            <div w3-include-html="navleftIndex.html"></div>
+            <div w3-include-html="nav/navleftIndex.php"></div>
             <script>
                 w3.includeHTML();
             </script>
@@ -67,7 +69,7 @@
     </div>
     <div>
         <script src="js/w3.js"></script>
-        <div w3-include-html="footer.html"></div>
+        <div w3-include-html="nav/footer.php"></div>
         <script>
             w3.includeHTML();
         </script>

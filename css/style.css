@@ -10,15 +10,15 @@
      margin-right: 15%;
      padding: 8px;
 }
+ 
  .menuBar {
      position: fixed;
      width: 100%;
      top: 0%;
      float:top;
      display: block;
-     padding-top: 2%;
      z-index: 3;
-     height: 50px;
+     height: 5%;
      text-align: center;
      background-color: #3d3d3d;
 }
@@ -26,17 +26,6 @@
      color: #fff;
      text-decoration: none;
      font-size: 120%;
-     margin: 0;
-     top: 0%;
-     border-top-left-radius: 20px;
-     border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
-     border-bottom-left-radius: 20px;
-     padding: 1% 1%;
-     padding-top: 1%;
-     padding-right: 3%;
-     padding-bottom: 1%;
-     padding-left: 2%;
 }
  .menuBar a:hover {
      background-color: #ffffff;
@@ -50,7 +39,7 @@
 }
  .navleft {
      position: fixed;
-     width: 13%;
+     width: 10%;
      height: 100%;
      display: block;
      float: left;
@@ -63,8 +52,6 @@
      width: 80%;
      text-align: center;
      border-radius: 9px;
-     margin-bottom: 6%;
-     padding: 8%;
      text-decoration: none;
      z-index: 2;
      box-sizing: inherit;
@@ -132,7 +119,6 @@
      width: 65%;
      border: 5px solid #353b48;
      border-radius : 20px;
-     padding: 30px;
      text-align: left;
      left: 50%;
      margin-left: 20%;
@@ -143,7 +129,6 @@
      background-color:#dcdde1;
      border: 5px solid #353b48;
      border-radius : 20px;
-     padding: 5px;
 }
  div{
      text-align:center;
@@ -216,7 +201,6 @@
 }
  #sche td, #sche th {
      border: 1px solid #ddd;
-     padding: 8px;
 }
  #sche tr:nth-child(even){
      background-color: #f2f2f2;
@@ -225,8 +209,6 @@
      background-color: #ddd;
 }
  #sche th {
-     padding-top: 12px;
-     padding-bottom: 12px;
      border: 1px solid #7f8fa6;
      text-align: left;
      background-color: #d9d9d9;
@@ -241,7 +223,6 @@
 }
  #contact td, #contact th {
      border: 1px solid #ddd;
-     padding: 8px;
 }
  #contact tr:nth-child(even){
      background-color: #f2f2f2;
@@ -250,19 +231,22 @@
      background-color: #ddd;
 }
  #contact th {
-     padding-top: 12px;
-     padding-bottom: 12px;
      border: 1px solid #7f8fa6;
      text-align: left;
      background-color: #d9d9d9;
      color: black;
 }
+div#menuTab li {
+    display: inline-flex;
+    /* Largeur des boutons */
+    width: 250px;
+}
+ul#tabnav {
+    position: fixed;
+
+}
  #menuTab {
      border-collapse: collapse;
-     width: 80%;
-     margin-left: 10%;
-     margin-right: 10%;
-     margin-bottom: 4%;
 }
  #menuTab td, #menuTab th {
      padding: 8px;
@@ -277,7 +261,6 @@
      margin-right: 15%;
      border-radius: 20px;
      box-shadow: 10px 10px 5px grey;
-     margin-bottom: 4%;
 }
  .lienTab th {
      padding: 8px;
@@ -362,7 +345,6 @@
      text-align: justify;
 }
  #util {
-     margin-bottom: 90px;
 }
  #util a {
      color: #000;

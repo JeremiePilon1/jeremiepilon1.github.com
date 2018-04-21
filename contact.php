@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
 	Fichier 	: contact.html
 	Description     : Page contact
@@ -30,7 +30,7 @@
     <header>
         <div class="menuBar">
             <script src="js/w3.js"></script>
-            <div w3-include-html="menu.html"></div>
+            <div w3-include-html="nav/menu.php"></div>
             <script>
                 w3.includeHTML();
             </script>
@@ -77,7 +77,7 @@
         <table id="contact">
             <tr>
                 <th>Mobile Personnel</th>
-                <td>(450) 530 - 5699</td>
+                <td>(450) 848 - 4069</td>
             </tr>
             <tr>
                 <th>Courriel</th>
@@ -87,7 +87,7 @@
     </div>
     <div>
         <script src="js/w3.js"></script>
-        <div w3-include-html="footer.html"></div>
+        <div w3-include-html="nav/footer.php"></div>
         <script>
             w3.includeHTML();
         </script>

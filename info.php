@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
 	Fichier 	: info.html
 	Description     : Page info
@@ -23,14 +23,14 @@
     <div>
         <div class="menuBar">
             <script src="js/w3.js"></script>
-            <div w3-include-html="menu.html"></div>
+            <div w3-include-html="nav/menu.php"></div>
             <script>
                 w3.includeHTML();
             </script>
         </div>
         <div id="navleft">
             <script src="js/w3.js"></script>
-            <div w3-include-html="navleftInfo.html"></div>
+            <div w3-include-html="nav/navleftInfo.php"></div>
             <script>
                 w3.includeHTML();
             </script>
@@ -57,9 +57,8 @@
                     Si vous lisez ceci, vous êtes au bonne endroit. Chez © Techno Technic nous somme toujours là pour vous offrir un service de qualité exceptionnel et prêt à tout pour accomplir notre devoir.
                 </p>
                 <div id='util'>
-                    <h1>Liens utiles du site</h1>
-                    <a href="lien.html">Quelques liens du web</a>
-                    <a href="contact.html">Comment me contacter?</a>
+                    <h1>Comment me contacter ?</h1>
+                    <a href="service.php">Par ici!</a>
                     <h3>De plus si vous le souhaiter pour quelconque raison, vous pouvez consulter mon Curriculum Vitæ qui contient mon expérience dans le domaine ainsi que quelque informations supplémentaires.</h3>
                     <a href="CV/CurriculumVitæ.html">Curriculum Vitæ</a>
                 </div>
@@ -68,7 +67,7 @@
     </div>
     <div>
         <script src="js/w3.js"></script>
-        <div w3-include-html="footer.html"></div>
+        <div w3-include-html="nav/footer.php"></div>
         <script>
             w3.includeHTML();
         </script>

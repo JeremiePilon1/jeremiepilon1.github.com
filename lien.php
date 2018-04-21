@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
 	Fichier 	: lien.html
 	Description     : Page de lien
@@ -23,14 +23,14 @@
     <div>
         <div class="menuBar">
             <script src="js/w3.js"></script>
-            <div w3-include-html="menu.html"></div>
+            <div w3-include-html="nav/menu.php"></div>
             <script>
                 w3.includeHTML();
             </script>
         </div>
         <div id="navleft">
             <script src="js/w3.js"></script>
-            <div w3-include-html="navleftLien.html"></div>
+            <div w3-include-html="nav/navleftLien.php"></div>
             <script>
                 w3.includeHTML();
             </script>
@@ -107,7 +107,7 @@
     </div>
     <div>
         <script src="js/w3.js"></script>
-        <div w3-include-html="footer.html"></div>
+        <div w3-include-html="nav/footer.php"></div>
         <script>
             w3.includeHTML();
         </script>
